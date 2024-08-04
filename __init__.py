@@ -3,7 +3,7 @@
 import os
 
 konfigurace = {
-    'version': '1.0',
+    'version': '2.0',
     'author': 'Danb1551',
     "description":"PySql is a tool for efficiently storing data in \nthe 'data' folder stored in the Windows root directory \nand then you can read that data and save it to a variable."
 }
