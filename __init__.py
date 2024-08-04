@@ -1,5 +1,5 @@
 # __init__.py
-
+# PySql.load.text/json/csv/xls(excel)/pkl(pickle)/yaml nebo yml/bin
 import os
 
 konfigurace = {
@@ -11,17 +11,6 @@ konfigurace = {
 def initialize():
     for key, value in konfigurace.items():
         print(f"{key}: {value}")
-
-
-def save(data, name):
-    name = "C:/data/" + name
-    with open(name, "w") as file:
-        file.write(data)
-
-def load(name):
-    with open(name, "r") as file:
-        data = file.read()
-    return data
 
 adresar = "C:/data"
 if not os.path.exists(adresar):
